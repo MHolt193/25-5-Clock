@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import LengthControls from "./components/LengthControls";
 import Controls from "./components/Controls";
 import Display from "./components/Display";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const App = (props) => {
@@ -114,6 +115,7 @@ const App = (props) => {
         src="https://orangefreesounds.com/wp-content/uploads/2021/02/Alarm-clock-bell-ringing-sound-effect.mp3?_=1"
         id="beep"
       />
+      <Footer />
     </div>
   );
 };
