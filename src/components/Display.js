@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './Display.module.css'
 
 const Display = (props) => {
   const  displayClock =() =>{
@@ -10,11 +11,11 @@ const Display = (props) => {
     }
 
     return(
-        <div>
+        <div >
            <div>
-               <h3 id='timer-label'>{props.timerType} {props.timerStatus}</h3>
+               <h3 id='timer-label'className={classes.label}>{props.timerType} {props.timerStatus}</h3>
            </div>
-           <div id='time-left'>{displayClock()}</div>
+           <div id='time-left' className={classes.display}>{displayClock()}</div>
         </div>
     )
 }

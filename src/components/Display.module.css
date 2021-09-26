@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.display {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(102, 135, 101);
+    background: -moz-linear-gradient(150deg,
+            rgba(101, 135, 133, 1) 7%,
+            rgba(188, 214, 214, 1) 41%,
+            rgba(149, 205, 205, 1) 61%);
+    background: -webkit-linear-gradient(150deg,
+            rgba(101, 135, 133, 1) 7%,
+            rgba(188, 214, 214, 1) 41%,
+            rgba(149, 205, 205, 1) 61%);
+    background: linear-gradient(150deg,
+            rgb(101, 135, 107) 7%,
+            rgb(188, 214, 190) 41%,
+            rgb(151, 205, 149) 61%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#658785", endColorstr="#95cdcd", GradientType=1);
+    height: 110px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(75, 71, 71);
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: inset 0px 0px 15px black;
+}
+
+.label {
+    font-family: 'Koh Santepheap', cursive;
+    font-weight: 600;
+    color: white;
+}

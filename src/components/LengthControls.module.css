@@ -1,3 +1,16 @@
-.label{
-    
-}
+.length{
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    margin-top:0px;
+    margin-bottom: 0px;
+  }
+  .label{
+    font-family: 'Koh Santepheap', cursive;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 15px;
+  }
